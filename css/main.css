@@ -12,6 +12,13 @@
 
 }
 
+.round {
+    border-radius: 100px;
+    /* Радиус скругления */
+    box-shadow: 0 0 0 3px green, 0 0 13px #333;
+    /* Параметры теней */
+}
+
 #gray-line {
     width: 70px;
     height: 2px;
@@ -37,6 +44,10 @@ a:hover {
     color: #fe7e11;
 }
 
+
+/*
+Спецификация для наведения кастомная
+*/
 /*Шапка*/
 .header {
     margin-top: 50px;
@@ -290,9 +301,13 @@ a:hover {
     transition: 0.5s;
 }
 
-.resume-block:hover{
-    border: 10px solid transparent;	border-left:10px solid #fe7e11; border-top: 10px solid #fe7e11; border-right:0px; border-bottom: 0px;
-transition: 0.5s;
+.resume-block:hover {
+    border: 10px solid transparent;
+    border-left: 10px solid #fe7e11;
+    border-top: 10px solid #fe7e11;
+    border-right: 0px;
+    border-bottom: 0px;
+    transition: 0.5s;
 }
 
 .resume-block #p-data {
@@ -316,4 +331,100 @@ transition: 0.5s;
     font-family: Lato;
     font-size: 20px;
     font-weight: 700;
+}
+
+.tstim {
+    padding-top: 110px;
+}
+
+.wrapper-slick {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.myslider-items {
+    background-color: #e2e2e2;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.myslider-items img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+.myslider-items h5 {
+    color: #666666;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.myslider-items strong {
+    color: #555555;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.myslider-items p {
+    color: #555555;
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.lightgallery img {
+    margin-right: 57px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.lightgallery img:hover{
+    transform: scale(1.12);
+    box-shadow: 15px 3px 4px 2px gray;
+    transition: 0.5s;
+}
+
+.gllr{
+    padding-bottom: 110px;
+}
+
+.blog-warper{
+    text-align: center;
+}
+
+.blog-warper img{
+    width: 300px;
+    height: 210px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.blog-warper p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.mini-blog{
+    
+    background-color: #e2e2e2;
+padding: 20px;
+margin-bottom: 110px;
+}
+
+.main-form{
+    width: 350px;
+    height: 50px;
+}
+
+.main-big-form{
+    margin-top: 30px;
+    width: 730px;height: 200px;
 }
