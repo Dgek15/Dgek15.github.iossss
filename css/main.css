@@ -5,6 +5,29 @@
     font-family: "Montserrat";
 }
 
+.backgnd {
+    background-color: #f0f0f0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#round {
+    border-radius: 100%;
+
+}
+
+#round-t {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+
+
 #orange-line {
     width: 110px;
     height: 2px;
@@ -12,12 +35,7 @@
 
 }
 
-.round {
-    border-radius: 100px;
-    /* Радиус скругления */
-    box-shadow: 0 0 0 3px green, 0 0 13px #333;
-    /* Параметры теней */
-}
+
 
 #gray-line {
     width: 70px;
@@ -45,9 +63,36 @@ a:hover {
 }
 
 
-/*
-Спецификация для наведения кастомная
-*/
+.head-names {
+    margin-bottom: 130px;
+
+
+}
+
+
+.btn-about {
+    width: 160px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 110px;
+    background-color: #f0f0f0;
+    color: #666666;
+    border: #666666 2px solid;
+    margin-right: 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn-about:hover {
+    background-color: #fe7e11;
+    color: #ffffff;
+    border: #fe7e11;
+    transition: 0.5s;
+}
+
+
+
+
 /*Шапка*/
 .header {
     margin-top: 50px;
@@ -64,6 +109,7 @@ a:hover {
     display: flex;
     list-style: none;
     margin-top: 32px;
+
 }
 
 .header-menu li {
@@ -87,6 +133,7 @@ a:hover {
 
 .info {
     margin-top: 120px;
+    margin-bottom: 200px;
 }
 
 .info-only {
@@ -113,6 +160,12 @@ a:hover {
     line-height: 56px;
 }
 
+.info img {
+    width: 100%;
+    min-height: 100%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
 .info button {
     margin-top: 60px;
     width: 150px;
@@ -135,9 +188,7 @@ a:hover {
 
 /*About Me*/
 
-.backgnd {
-    background-color: #f0f0f0;
-}
+
 
 .about-me {
     padding-top: 110px;
@@ -149,10 +200,16 @@ a:hover {
     color: #666666;
     font-size: 36px;
     font-weight: 700;
+
 }
 
 #under-draw {
     margin-bottom: 100px;
+}
+
+.main-info img {
+    width: 300px;
+    height: auto;
 }
 
 .main-info strong {
@@ -181,25 +238,7 @@ a:hover {
     line-height: 13px;
 }
 
-.btn-about {
-    width: 160px;
-    height: 50px;
-    margin-top: 40px;
-    margin-bottom: 110px;
-    background-color: #f0f0f0;
-    color: #666666;
-    border: #666666 2px solid;
-    margin-right: 30px;
-    border-radius: 50px;
-    transition: 0.5s;
-}
 
-.btn-about:hover {
-    background-color: #fe7e11;
-    color: #ffffff;
-    border: #fe7e11;
-    transition: 0.5s;
-}
 
 .service {
     margin-bottom: 30px;
@@ -235,13 +274,16 @@ a:hover {
 }
 
 .mini-block {
+    width: auto;
+    height: 350px;
     background-color: #eeeeee;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
     transition: 0.5s;
-    margin-bottom: 110px;
+    margin-bottom: 10px;
+
 }
 
 .mini-block:hover {
@@ -299,6 +341,7 @@ a:hover {
     margin-bottom: 30px;
     background-color: #eeeeee;
     transition: 0.5s;
+
 }
 
 .resume-block:hover {
@@ -379,27 +422,29 @@ a:hover {
 }
 
 .lightgallery img {
+    width: 270px;
     margin-right: 57px;
     margin-bottom: 25px;
     transition: 0.5s;
 }
 
-.lightgallery img:hover{
+.lightgallery img:hover {
     transform: scale(1.12);
     box-shadow: 15px 3px 4px 2px gray;
     transition: 0.5s;
 }
 
-.gllr{
+.gllr {
     padding-bottom: 110px;
+    padding-top: 110px;
 }
 
-.blog-warper{
+.blog-warper {
     text-align: center;
 }
 
-.blog-warper img{
-    width: 300px;
+.blog-warper img {
+    width: 100%;
     height: 210px;
     display: block;
     margin-left: auto;
@@ -407,24 +452,176 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.blog-warper p{
+.blog-warper p {
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
-.mini-blog{
-    
+.mini-blog {
+
     background-color: #e2e2e2;
-padding: 20px;
-margin-bottom: 110px;
+    padding: 20px;
+    margin-bottom: 110px;
 }
 
-.main-form{
+.main-form {
     width: 350px;
     height: 50px;
 }
 
-.main-big-form{
+.main-big-form {
     margin-top: 30px;
-    width: 730px;height: 200px;
+    width: 100%;
+    height: 200px;
+}
+
+#yakblog {
+    padding-top: 110px;
+}
+
+.footer-form img {
+    float: left;
+    margin-right: 30px;
+}
+
+.footer-info {
+    margin-bottom: 30px;
+}
+
+.footer-info p {
+    color: #555555;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+
+}
+
+.txt-area {
+    margin-top: 30px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: #fe7e11;
+    box-shadow: 0px 0px 8px #fe7e11;
+}
+
+.footer-main-form button {
+    width: 190px;
+}
+
+
+footer p {
+    color: #555555;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+
+}
+
+footer a {
+    margin-left: 30px;
+}
+
+footer i {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/*Медиа-запросы(адаптация)*/
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .info img {
+        min-height: 400px;
+        min-width: 400px;
+        margin-top: 70px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .info img {
+        height: 400px;
+        width: 450px;
+        margin-top: 70px;
+    }
+
+    .info-only {
+        text-align: center;
+    }
+
+    .main-info img {
+        width: 450px;
+        margin-bottom: 30px;
+
+    }
+
+    .main-info {
+        text-align: center;
+    }
+
+    .lightgallery img {
+        width: 250px;
+        margin-right: 57px;
+        margin-bottom: 25px;
+        transition: 0.5s;
+    }
+
+    .footer-main-form input {
+        margin-top: 50px;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .info img {
+        height:300px;
+        width: 300px;
+        margin-top: 70px;
+        
+    }
+
+    #header-menu li{
+margin-right: 20px;
+    }
+
+    .info{
+        text-align: center;
+    }
+
+    .main-info{
+        text-align: center;
+    }
+
+    .main-info img{
+        margin-bottom: 50px;
+    }
+
+    .footer-main-form input {
+        margin-top: 50px;
+    }
+
+    
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+   
 }
